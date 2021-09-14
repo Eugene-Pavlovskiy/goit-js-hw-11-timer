@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    /* background-image: url(./img/travel-athens-panorama-credit-istock.jpg); */
+    background-image: url(./img/Q-unsplash.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    background-image: linear-gradient(to bottom, rgba(165, 141, 7, 0.5), rgba(228, 250, 29, 0.5));
+  
+    width: 660px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 300px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+ .box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+
+ }
+
+ .field {
+     padding: 5px;
+     color: #ffffff;
+ }
+  .value {
+      font-size: 42px;
+      font-weight: 900;
+      color: rgb(74, 247, 6);
+  }
+
+  .label {
+    font-size: 20px;
+}
